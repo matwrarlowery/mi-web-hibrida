@@ -70,17 +70,35 @@ const routes = [
   { type: "divider", key: "divider-0" },
   {
     type: "collapse",
+<<<<<<< HEAD
     name: "Dashboards",
     key: "dashboards",
     icon: <Icon fontSize="medium">dashboard</Icon>,
     collapse: [
       {
         name: "Analytics",
+=======
+    name: "MATWRAR EMPIRE",
+    key: "dashboards",
+    icon: <Icon fontSize="medium">rocket_launch</Icon>,
+    collapse: [
+      {
+        name: "Empire Home",
+>>>>>>> master
         key: "analytics",
         route: "/dashboards/analytics",
       },
       {
+<<<<<<< HEAD
         name: "Sales",
+=======
+        name: "The Manifesto",
+        key: "manifesto",
+        route: "/manifesto",
+      },
+      {
+        name: "Sales Dashboard",
+>>>>>>> master
         key: "sales",
         route: "/dashboards/sales",
       },
@@ -177,27 +195,44 @@ const routes = [
   },
   {
     type: "collapse",
+<<<<<<< HEAD
     name: "Applications",
     key: "applications",
     icon: <Icon fontSize="medium">apps</Icon>,
     collapse: [
       {
         name: "Kanban",
+=======
+    name: "Herramientas",
+    key: "applications",
+    icon: <Icon fontSize="medium">build</Icon>,
+    collapse: [
+      {
+        name: "Inventario",
+>>>>>>> master
         key: "kanban",
         route: "/applications/kanban",
       },
       {
+<<<<<<< HEAD
         name: "Wizard",
         key: "wizard",
         route: "/applications/wizard",
       },
       {
         name: "Data Tables",
+=======
+        name: "Reportes",
+>>>>>>> master
         key: "data-tables",
         route: "/applications/data-tables",
       },
       {
+<<<<<<< HEAD
         name: "Calendar",
+=======
+        name: "Calendario",
+>>>>>>> master
         key: "calendar",
         route: "/applications/calendar",
       },
@@ -205,6 +240,7 @@ const routes = [
   },
   {
     type: "collapse",
+<<<<<<< HEAD
     name: "Ecommerce",
     key: "ecommerce",
     icon: <Icon fontSize="medium">shopping_basket</Icon>,
@@ -215,32 +251,64 @@ const routes = [
         collapse: [
           {
             name: "New Product",
+=======
+    name: "Productos",
+    key: "ecommerce",
+    icon: <Icon fontSize="medium">inventory</Icon>,
+    collapse: [
+      {
+        name: "Gestión",
+        key: "products",
+        collapse: [
+          {
+            name: "Nuevo Producto",
+>>>>>>> master
             key: "new-product",
             route: "/ecommerce/products/new-product",
           },
           {
+<<<<<<< HEAD
             name: "Edit Product",
+=======
+            name: "Editar Producto",
+>>>>>>> master
             key: "edit-product",
             route: "/ecommerce/products/edit-product",
           },
           {
+<<<<<<< HEAD
             name: "Product Page",
+=======
+            name: "Ver Producto",
+>>>>>>> master
             key: "product-page",
             route: "/ecommerce/products/product-page",
           },
         ],
       },
       {
+<<<<<<< HEAD
         name: "Orders",
         key: "orders",
         collapse: [
           {
             name: "Order List",
+=======
+        name: "Pedidos",
+        key: "orders",
+        collapse: [
+          {
+            name: "Lista de Pedidos",
+>>>>>>> master
             key: "order-list",
             route: "/ecommerce/orders/order-list",
           },
           {
+<<<<<<< HEAD
             name: "Order Details",
+=======
+            name: "Detalles de Pedido",
+>>>>>>> master
             key: "order-details",
             route: "/ecommerce/orders/order-details",
           },

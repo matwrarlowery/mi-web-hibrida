@@ -11,6 +11,10 @@ const withTM = require("next-transpile-modules")([
 
 module.exports = withTM({
   reactStrictMode: true,
+<<<<<<< HEAD
+=======
+  output: 'standalone',
+>>>>>>> master
   async redirects() {
     return [
       {
